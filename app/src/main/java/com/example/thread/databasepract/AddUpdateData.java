@@ -22,7 +22,7 @@ public class AddUpdateData extends BaseActivity {
 
 
     private boolean forEdit = false;
-    private SQLiteDatabase empDatabase;
+    private SQLiteDatabase empDatabase=null;
     private ActivityAddUpdateDataBinding activityAddUpdateDataBinding = null;
     private EmployeeModel employeeModel;
 
